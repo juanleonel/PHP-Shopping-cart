@@ -1,5 +1,9 @@
 <?php
+
   $db = new mysqli('localhost', 'juanl', 'root', 'simpleshopping');
+
+  //$db = new mysqli('localhost', 'ujuan', 'root', 'simpleshopping');
+
 
   if($db->connect_errno)
   {
